@@ -6,17 +6,13 @@ pip-chill
 wincertstore
 dvc
 mlflow
-ipykernal
+ipykernel 
 pandas
 numpy
 seaborn
-
-
 pytest
 tox
 flake8
 mypy
 black
-
-
-# -e . 
+-e .
