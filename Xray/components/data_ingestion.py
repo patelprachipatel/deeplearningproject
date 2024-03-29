@@ -42,5 +42,7 @@ class DataIngestion:
 
             logging.info("Exited the initiate_data_ingestion method of Data ingestion class")
 
+            return data_ingestion_artifact
+
         except Exception as e:
             raise XRayException(e,sys)
